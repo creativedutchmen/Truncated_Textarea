@@ -34,9 +34,7 @@
 
 			$group->appendChild($div);
 			
-			$wrapper->appendChild($group);
-			
-			$this->appendShowColumnCheckbox($wrapper);						
+			$wrapper->appendChild($group);						
 		}
 		
 		function findDefaults(&$fields){

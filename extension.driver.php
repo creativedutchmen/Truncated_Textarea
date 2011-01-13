@@ -21,7 +21,7 @@
 				`field_id` INT( 11 ) UNSIGNED NOT NULL ,
 				`formatter` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL ,
 				`size` INT( 3 ) UNSIGNED NOT NULL ,
-				`truncate` INT( 5 ) UNSIGNED NOT NULL
+				`truncate` INT( 5 ) UNSIGNED NULL
 				)
 			");
 		}
